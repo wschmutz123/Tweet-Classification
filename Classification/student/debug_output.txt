@@ -1,0 +1,71 @@
+Question 3(d): reporting dataset statistics:
+The processed sentence is ['best', 'book', 'ever', 'it', 's', 'great']
+d: 626
+Average number of nonzero features: 11.537878787878787
+Most common word: i
+--------------------------------------------
+
+Metric: accuracy
+Best c: 0.100000
+CV Score 0.8869
+
+Metric: f1_score
+Best c: 0.100000
+CV Score 0.8765
+
+Metric: auroc
+Best c: 0.100000
+CV Score 0.9351
+
+Metric: precision
+Best c: 0.100000
+CV Score 0.9510
+
+Metric: sensitivity
+Best c: 0.001000
+CV Score 0.867
+
+Metric: specificity
+Best c: 0.100000
+CV Score 0.9549
+Question 4.1(e): Displaying the most positive and negative words
+coeff: 0.2317 word: he
+coeff: 0.3000 word: happy
+coeff: 0.4151 word: you
+coeff: 0.8592 word: thank
+coeff: 1.1808 word: thanks
+coeff: -0.2143 word: s
+coeff: -0.2283 word: my
+coeff: -0.3020 word: same
+coeff: -0.2396 word: sad
+coeff: -0.2343 word: name
+Question 4.3: Quadratic SVM
+4.3(b)i: Quadratic SVM with grid search and auroc metric:
+Best c: 1000.000000 Best coeff: 0.10000
+Test Performance: 0.8806
+4.3(a)ii: Quadratic SVM with random search and auroc metric:
+Best c: 8.484546 Best coeff: 4.40992
+Test Performance: 0.8763
+--------------------------------------------
+Question 5.1: Linear SVM with imbalanced class weights
+Test Performance on metric accuracy: 0.5000
+Test Performance on metric f1_score: 0.6667
+Test Performance on metric auroc: 0.9040
+Test Performance on metric precision: 0.5000
+Test Performance on metric sensitivity: 1.0000
+Test Performance on metric specificity: 0.0000
+Question 5.2: Linear SVM on an imbalanced data set
+Test Performance on metric accuracy: 0.7907
+Test Performance on metric f1_score: 0.8831
+Test Performance on metric auroc: 0.7941
+Test Performance on metric precision: 0.7907
+Test Performance on metric sensitivity: 1.0000
+Test Performance on metric specificity: 0.0000
+Question 5.3(b): Choosing appropriate class weights
+class_weight={-1: 2, 1: 5}
+Test Performance on metric accuracy: 0.7907
+Test Performance on metric f1_score: 0.8831
+Test Performance on metric auroc: 0.8856
+Test Performance on metric precision: 0.7907
+Test Performance on metric sensitivity: 1.0000
+Test Performance on metric specificity: 0.0000
